@@ -192,7 +192,7 @@ class PerfectShape(bpy.types.Operator, PerfectShapeUI):
                     a = sum([e.calc_length() for e in loop_edges]) / loop_verts_len
                     diameter = a / (2 * math.sin(math.pi / loop_verts_len))
                     shape_segments = loop_verts_len + self.span
-                    shape_verts = bmesh.ops.create_circle(shape_bm, segments=shape_segments, diameter=diameter)
+                    shape_verts = bmesh.ops.create_circle(shape_bm, segments=shape_segments, radius=diameter/2)
                     shape_verts = shape_verts["verts"]
                     shape_edges = shape_bm.edges[:]
 
