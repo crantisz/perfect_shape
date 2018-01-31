@@ -1,8 +1,8 @@
 # Perfect Shape
-Perfect Shape Addon for Blender.
+Perfect Shape Addon for Blender. it is a copy of https://github.com/hophead-ninja/perfect_shape/releases/tag/perfect_shape-1.2 with changes to work in blender 2.79.
 
 Addon for easy extrusion of various shapes on an uneven surface
 
 Usage description: https://www.youtube.com/watch?v=Llrricm1EF0
 
-In 1.2 version critical errors occur, they can disturb GPU rendering, last release (1.2.1) fixed that.
+
